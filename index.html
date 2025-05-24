@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al-krumeh Luméra Jewelry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header class="hero">
+  <div class="hero-overlay">
+    <img src="./assets/logo.png" alt="Luméra Jewelry Logo" class="hero-logo" />
+
+    <div class="hero-content">
+      <h1>Crafted to Adorn. Designed to Endure.</h1>
+      <p>
+        Elevate your every moment with timeless jewelry handmade from ethically sourced materials.
+      </p>
+      <div class="cta">
+        <button onclick="scrollToSection('collections')">Shop The Collection</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <section class="section">
+    <h2>Luxury You Can Feel. Meaning You Can Wear.</h2>
+    <p>At Al-krumeh Luméra, we believe jewelry is more than an accessory—it’s a story. Our collections are inspired by the strength and softness of modern femininity. Designed in-house and crafted by skilled artisans, each piece is a blend of refined simplicity and intentional elegance.</p>
+  </section>
+
+  <section class="section collections" id="collections">
+    <div class="collection">
+      <img src="./assets/every-day-collection.png" alt="Halo Collection" />
+      <h3>The Halo Collection</h3>
+      <p>Light, graceful, everyday elegance.</p>
+    </div>
+    <div class="collection">
+      <img src="./assets/modern-use2.jpg" alt="Terra Series" />
+      <h3>The Terra Series</h3>
+      <p>Bold textures for the modern muse.</p>
+    </div>
+    <div class="collection">
+      <img src="./assets/vintage-png.jpg" alt="Heirloom Line" />
+      <h3>Heirloom Line</h3>
+      <p>One-of-a-kind vintage-inspired statement pieces.</p>
+    </div>
+  </section>
+
+  <section class="section reviews">
+    <h2>Worn and Loved By Thousands Worldwide</h2>
+    <p>Real women. Real moments. Real sparkle.</p>
+    <div class="review">
+      “I’ve never felt more elegant wearing something so simple. Luméra has completely redefined everyday luxury for me.” — <strong>Tosin A., London</strong>
+    </div>
+  </section>
+
+ <section class="section quality-section">
+  <h2>Conscious Craftsmanship. Unmatched Quality.</h2>
+  <div class="quality-list">
+    <div class="quality-item">100% Recycled Gold & Silver</div>
+    <div class="quality-item"> Conflict-Free Gemstones</div>
+    <div class="quality-item"> 30-Day Returns</div>
+    <div class="quality-item">Free Global Shipping</div>
+    <div class="quality-item"> Lifetime Repair Guarantee</div>
+  </div>
+</section>
+
+ <section class="section email-section">
+  <div class="email-box">
+    <div class="email-image">
+      <img src="./assets/Cta.jpg" alt="Join our circle" />
+    </div>
+    <div class="email-content">
+      <h2>Join the Inner Circle</h2>
+      <p>Be the first to access limited drops, styling secrets, and exclusive perks.</p>
+      <form onsubmit="return subscribeUser()">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Sign Me Up</button>
+      </form>
+      <small>We respect your inbox. Unsubscribe anytime.</small>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Al-krumeh Luméra Jewelry</p>
+    <nav>
+      <a href="#">About</a> |
+      <a href="#">Shop</a> |
+      <a href="#">FAQs</a> |
+      <a href="#">Contact</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
